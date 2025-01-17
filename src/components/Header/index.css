@@ -1,0 +1,117 @@
+.nav-header {
+    /* font-size: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 8px;
+    height: 80px;
+    max-width: 1110px;
+    padding-left: 8px;
+    /* padding-right: 8px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .social-network-img {
+    width: 14px;
+    height: 14px;
+    margin-left: 15px;
+  }
+  
+  .navLinks {
+    font-family: Roboto;
+    color: black;
+    text-decoration: none;
+    padding-left: 8px;
+    padding-top: 14px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold, 400;
+    font-size: 10px;
+  }
+  
+  .nav-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: center;
+    flex: 1;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .social-network-img {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+  }
+  
+  .nav-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  .website-logo {
+    font-size: 20px;
+    padding: 10px;
+    /* width: 45px; */
+    /* height: 45px; */
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 900;
+    color: #1d4ed8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dbeafe;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .nav-header {
+      width: 95%;
+      height: 100px;
+      margin-left: 18px;
+      margin-right: 18px;
+    }
+    .navLinks {
+      font-size: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 4px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .website-logo {
+      font-size: 30px;
+      /* width: 48px; */
+      /* height: 48px; */
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .social-network-img {
+      width: 32px;
+      height: 32px;
+      border-radius: 4px;
+      margin-left: 13px;
+    }
+  }
+  

@@ -1,0 +1,14 @@
+.aboutBgImg {
+    background-image: url('https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    font-family: 'Courier New', monospace;
+    padding: 20px;
+    padding-left: 30px;
+  }
+  
+  p {
+    font-size: 25px;
+  }
+  

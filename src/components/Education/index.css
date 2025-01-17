@@ -1,0 +1,39 @@
+.Eduimg {
+    background-size: cover;
+    height: 80px;
+    background-color: white;
+  }
+  
+  .EduCard {
+    display: flex;
+    align-items: center;
+    width: 500px;
+  }
+  
+  .EduContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .eduYear {
+    font-weight: 200;
+    font-size: 20px;
+  }
+  
+  .eduStandard {
+    font-weight: 200;
+    font-size: 20px;
+  }
+  
+  .eduClg {
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  .eduLocation {
+    font-weight: 200;
+    font-size: 18px;
+  }
+  
